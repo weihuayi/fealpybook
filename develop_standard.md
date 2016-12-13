@@ -23,7 +23,7 @@ NF: 面的个数
 phi[i, j]
 phi[i, j, k]
 
-标题基基函数梯度 gradphi, 三维数组, phi[i, j, k],  第 i 个单元的第 j 个基函数关于第 k 个分量的导数值
+基函数梯度 gradphi, 三维数组, gradphi[i, j, k],  第 i 个单元的第 j 个基函数关于第 k 个分量的导数值
 
 ## 网格模块
 
@@ -48,8 +48,10 @@ phi[i, j, k]
 * edge
 * face
 * cell 
+* cell2point
 * cell2edge
 * edge2cell
+* point2cell
 * cell2face
 * face2cell
 
